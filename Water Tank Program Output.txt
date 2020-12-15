@@ -1,0 +1,100 @@
+#####     Water Tank Design     #####
+
+
+Length (in mm)= Breadth (in mm)= Height (in mm)= 
+
+-----SIGMA_cbc-----
+Concrete to be used = SIGMA_cbc= 14.5
+-----SIGMA_st-----
+SIGMA_st= SIGMA_st 130.0
+
+
+-----CONSTANTS-----
+m= 6.436781609195402
+k= 0.41791044776119407
+j= 0.8606965174129353
+Q= 2.607781985594416
+
+
+-----THICKNESS OF WALL - TAKING 60mm PER LENGTH in m-----
+Thickness= 300.0
+EFFECTIVE_SPAN= 5300.0
+
+
+-----MINIMUM AREA OF STEEL-----
+Ast_min by interpolation= 728.5714285714287 mm2
+
+
+-----L/B Ratio-----
+Cantilever Action height for the both walls= 1000 mm
+
+
+-----Calculation for x-----
+Providing cover of 25mm
+Diameter of main bar= Diameter of Distribution bar= d= 267.0
+x= 117.0 mm
+
+
+-----Contilever Moment-----
+Cantilever moment= 4.905 KNm
+Cantilever Ast= 164.185330808699 mm2
+Provid 8.0 mm bar @ 137.91372549019607 mm
+
+
+-----DESIGN FOR LONG WALL-----
+
+
+-----Pull-----
+P= 19.62 KN/m2
+Pull Tl= 49.050000000000004 KN
+Pull Ast= 377.3076923076924 mm2
+
+
+-----Effecive Moment Corner-----
+Effective Corner moment= 40.188300000000005
+
+
+-----Ast for corner moment-----
+Ast (Corner moment) in mm2= 1345.2251437592743
+Total steel corner= 1722.5328360669666 mm2
+Provide 16.0 mm bar @ 116.6654102564738 mm c/c
+
+
+-----Effecive Moment Midspan-----
+Effective Midspan moment= 28.706512500000002
+
+
+-----Ast for midspan moment-----
+Ast (Corner moment) in mm2= 960.8946485579112
+Provide 16.0 mm bar @ 150.1716099749242 mm c/c
+
+
+-----DESIGN FOR SHORT WALL-----
+
+
+-----Pull-----
+P= 19.62 KN/m2
+Pull Tl= 34.335 KN
+Pull Ast= 264.11538461538464 mm2
+
+
+-----Effecive Moment Corner-----
+Effective Corner moment= 19.592204999999996
+
+
+-----Ast for corner moment-----
+Ast (Corner moment) in mm2= 655.8109396935466
+Total steel corner= 919.9263243089313 mm2
+Provide 16.0 mm bar @ 218.45227676353923 mm c/c
+
+
+-----Effecive Moment Midspan-----
+Effective Midspan moment= 13.689854999999998
+
+
+-----Ast for midspan moment-----
+Ast (Corner moment) in mm2= 458.2412582870789
+Provide 16.0 mm bar @ 275.82745098039214 mm c/c
+
+
+#####     END     #####
